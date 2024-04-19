@@ -1,0 +1,45 @@
+*{
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    background-color: #242424;
+}
+input{
+    width:100%;
+    border-radius: 8px;
+    border: none;
+    height: 44px;
+    outline: none;
+    color: black;
+    padding-left: 15px;
+}
+h4{
+    font-size: 14px;
+}
+p{
+    font-size: 25px;
+}
+.row{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: end;
+}
+.moeda{
+    width: 300px;
+}
+#moedas{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
